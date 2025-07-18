@@ -28,7 +28,7 @@ class SeleniumSmpldoTest extends \PHPUnit\Framework\TestCase
         $this->navigateToAnalytics();
         $this->navigateToEmployees();
         $this->performLogout();
-        sleep(10); // Ждем 10 секунд перед закрытием браузера
+        sleep(5); 
     }
 
     private function performLogin()
