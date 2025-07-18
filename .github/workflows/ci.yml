@@ -17,5 +17,7 @@ jobs:
           php-version: '8.2'
       - name: Install dependencies
         run: composer install --no-progress --no-suggest --prefer-dist
+      - name: Make phpunit executable
+        run: chmod +x vendor/bin/phpunit
       - name: Run tests
         run: vendor/bin/phpunit 
