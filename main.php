@@ -19,7 +19,7 @@
  * $distance = haversineGreatCircleDistance(55.7558, 37.6176, 59.9311, 30.3609);
  * echo $distance; // ~635000 метров
  * 
- * @author Ваше имя
+ * @author Adilet GitLiverur
  * @since 1.0.0
  */
 function haversineGreatCircleDistance(
